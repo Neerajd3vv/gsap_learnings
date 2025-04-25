@@ -27,6 +27,13 @@
 // 10. ScrollTrigger is used to trigger the animation on scroll. scrollTigger has own set of prperties. The Imp One is markers. Which shows the whole page has a start and end point. and the element has it own itself , So the trigger point it when pages start point comes in contact with the element start point.
 // 11. Scrub is a property of scrollTrigger. It is used to make the animation smooth and in sync with the scroll, Basically animation happens as well scroll we stop animation stops. And when user scrolls back the animation goes back.
 // 12. Pinning is used to pin the element in the viewport while scrolling. It is used to make the element stay in the viewport while scrolling.
+// 13. Attr property of GSAP is used to animate the attributes of the element. 
+// 14. ease is used to make animation smooth , with multiple effects fro more visit GSAP easing page.
+
+
+
+
+
 
 // gsap.from("#box1", {
 //   x: 1000,

@@ -20,3 +20,14 @@ string.addEventListener("mouseleave", (dets) => {
         ease: "elastic.out(1.5,0.2)"
     })
 })
+
+let cursor = document.querySelector("#cursor");
+document.addEventListener("mousemove", (e) => {
+    // console.log(e);
+    gsap.to(cursor, {
+      x: e.x,
+      y: e.y,
+    //   duration: 1,
+      ease: "back.out(1)",
+    });
+  });

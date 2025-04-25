@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#main {
+    font-family: "Red Hat Display";
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1676856577533-1e8099932f7b?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+#nav h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#nav i {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0%;
+    right: -35%;
+    width: 35%;
+    height: 100vh;
+    background-color: rgba(55, 3, 3, 0.299);
+    font-size: 55px;
+    backdrop-filter: blur(10px);
+    padding: 100px 50px;
+
+    letter-spacing: 1px;
+
+}
+
+
+#sidebar i {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 20px;
+    background-color: rgba(16, 2, 2, 0.611);
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#sidebar h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}

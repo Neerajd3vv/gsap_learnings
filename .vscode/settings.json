@@ -1,4 +1,5 @@
 {
     "github.copilot.editor.enableCodeActions": false,
-    "github.copilot.chat.codesearch.enabled": true
+    "github.copilot.chat.codesearch.enabled": true,
+    "liveServer.settings.port": 5501
 }

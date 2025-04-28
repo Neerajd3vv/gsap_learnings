@@ -15,7 +15,7 @@ window.addEventListener("wheel", (event) => {
       transform: "translateX(0%)",
       ease: "none",
       repeat: -1,
-      duration: 4,
+      duration: 4, 
     });
     gsap.to("#content img", {
       rotate: 0,

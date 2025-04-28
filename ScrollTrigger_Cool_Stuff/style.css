@@ -11,37 +11,39 @@ body {
     width: 100%;
     /* background-color: #111;
     color: #fff; */
+    
    
 }
-
-body{
+body {
     overflow-x: hidden;
 }
+
 #page1 {
-    width: 100%;
     height: 100%;
-    background-color: lightblue;
+    width: 100%;
+    background-color: #cab4b4;
 }
 
 #page2 {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
+    height:100%;
+    width:100%;
+    background-color: #111;
+    color : white;
     display: flex;
     align-items: center;
-    /* padding: 40px; */
+}
+
+#page2 h1 {
+    font-size: 20vw;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    
+    
 }
 
 #page3 {
-    width: 100%;
-    height: 100%;
-    background-color: lightblue;
-}
+    height:100%;
+    width:100%;
+    background-color: #cab4b4;
 
-h1{
-    text-wrap: nowrap;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 40vh;
-    color: white
 }

@@ -1,13 +1,12 @@
 gsap.to("#page2 h1", {
-  transform: "translateX(-55%)",
+  transform: "translateX(-50%)",
   scrollTrigger: {
-    trigger: "#page2",
+    trigger:"#page2",
     scroller: "body",
     markers: true,
     start: "top 0%",
-    end: "top -200%",
-    scrub: 2,
-    pin: true,
-    
+    end: "top -150%",
+    scrub:2,
+    // pin:true,
   }
-});
+})

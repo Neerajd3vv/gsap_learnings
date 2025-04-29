@@ -29,8 +29,7 @@
 // 12. Pinning is used to pin the element in the viewport while scrolling. It is used to make the element stay in the viewport while scrolling.
 // 13. Attr property of GSAP is used to animate the attributes of the element. 
 // 14. ease is used to make animation smooth , with multiple effects fro more visit GSAP easing page.
-
-
+// 15. Timeline me he delay dalne ke liye, "-=1.5" use karte hai. Jo ki animation ke end se pehle chale
 
 
 

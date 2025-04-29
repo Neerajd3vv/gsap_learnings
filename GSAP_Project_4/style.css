@@ -60,9 +60,9 @@ nav button {
 }
 
 main {
-    padding: 4vw 5vw;
+    padding: 2vw 5vw;
     display: flex;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     align-self: center;
 }
@@ -113,7 +113,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4vw 4vw;
+    padding: 2vw 4vw;
     /* background-color: brown; */
     margin-bottom: 10px;
 }
@@ -160,14 +160,14 @@ main {
 
 }
 
-#elem {
+.elem {
     padding: 40px;
     height: 300px;
     width: 48%;
     flex-shrink: 0;
     border: 3px solid;
     border-radius: 50px;
-    box-shadow: 0px 15px 0px black;
+    box-shadow: 0px 15px 0px #111;
     display: flex;
 }
 
@@ -225,12 +225,13 @@ main {
     justify-content: space-between;
 }
 
+
 #elem-part-3 h2 {
     width: 73%;
     font-size: 34px;
     text-wrap: wrap;
     font-weight: 600;
-    background-color: #c1ff63;
+    background-color: #fff;
     border-radius: 10px;
     padding: 5px 10px 3px 10px;
 }
@@ -247,6 +248,7 @@ main {
 
 #elem-part-3 h4 {
     display: flex;
+    color: #fff;
     align-items: center;
     gap: 10px;
     font-size: 14px;
@@ -254,10 +256,11 @@ main {
 }
 
 #elem-part-3 i {
+
     padding: 5px;
     font-size: 22px;
-    background-color: #111;
-    color: white;
+    background-color: #fff;
+    color: #111;
     border-radius: 50%;
 }
 
@@ -275,7 +278,7 @@ main {
     font-size: 34px;
     text-wrap: wrap;
     font-weight: 600;
-    background-color: #c1ff63;
+    background-color: #fff;;
     border-radius: 10px;
     padding: 5px 10px 3px 10px;
 }
@@ -293,6 +296,7 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #fff;
     font-size: 14px;
     font-weight: 500;
 }
@@ -300,8 +304,8 @@ main {
 #elem-part-5 i {
     padding: 5px;
     font-size: 22px;
-    background-color: #111;
-    color: white;
+    background-color: #fff;
+    color: #111;
     border-radius: 50%;
 }
 
@@ -348,4 +352,12 @@ main {
     background-color: #111;
     color: white;
     border-radius: 50%;
+}
+
+
+
+
+.black{
+    border: none    ;
+    background-color: #111;
 }
